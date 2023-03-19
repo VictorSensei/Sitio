@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Shippori Antique B1";
+  src: url("https://fonts.googleapis.com/css?family=Shippori+Antique+B1&display=swap");
+}
+
+@font-face {
+  font-family: "Gugi";
+  src: url("https://fonts.googleapis.com/css?family=Gugi&display=swap");
+}
+
+/* Colors */
+body {
+  background-color: #EACDCD;
+  font-family: "Shippori Antique B1", sans-serif;
+  color: #402E2B;
+}
+
+h1 {
+  font-family: "Shippori Antique B1", serif;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-shadow: 2px 2px 2px #75394D;
+}
+
+div {
+  margin: 20px;
+  border: 1px solid #BFBF56;
+  box-shadow: 2px 2px 2px #57734A;
+  background-image: url(pattern.jpg);
+  background-repeat: repeat;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+label {
+  font-family: "Shippori Antique B1", serif;
+  font-size: 1.2rem;
+  color: #75394D;
+}
+
+nav {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid #BFBF56;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+select {
+  font-family: "Shippori Antique B1", serif;
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #EACDCD;
+  color: #57734A;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 30px;
+  text-shadow: 1px 1px 1px #402E2B;
+}
+
+select:hover,
+select:active {
+  background-color: #BFBF56;
+  color: #402E2B;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #EACDCD;
+  box-shadow: 2px 2px 2px #57734A;
+}
+
+th,
+td {
+  border: 1px solid #BFBF56;
+  padding: 8px;
+  text-align: left;
+  font-size: 1rem;
+  font-family: 'Shippori Antique B1', sans-serif;
+  color: #402E2B;
+  text-shadow: 1px 1px 1px #75394D;
+}
+
+thead {
+  background-color: #BFBF56;
+  color: #402E2B;
+  font-family: "Gugi", "Helvetica Neue", sans-serif;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px #75394D;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #EACDCD;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  table {
+    width: 100%;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #75394D;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #57734A;
+}
+
